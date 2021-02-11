@@ -1,0 +1,12 @@
+@media not print {
+  @media (max-width: 767px) {
+    .banners-big .flex-control-nav,
+    .title_block .nav-direction {
+      display: block;
+    }
+
+    .front .flexslider .flex-control-nav {
+      bottom: 15px;
+    }
+  }
+}
