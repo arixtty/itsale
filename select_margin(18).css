@@ -1,0 +1,11 @@
+@media not print {
+  @media (max-width: 530px) {
+    div.ordering-wrap {
+      display: flex;
+    }
+
+    div.select-outer i.fa {
+      margin-right: auto;
+    }
+  }
+}
