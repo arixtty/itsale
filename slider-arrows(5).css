@@ -1,0 +1,70 @@
+div.banners-big
+  ol.flex-control-nav.flex-control-paging
+  + ul.flex-direction-nav
+  a {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  div.banners-big
+    ol.flex-control-nav.flex-control-paging
+    + ul.flex-direction-nav {
+    display: block;
+  }
+
+  div.banners-big
+    ol.flex-control-nav.flex-control-paging
+    + ul.flex-direction-nav
+    a {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    font-size: inherit;
+  }
+
+  div.banners-big
+    ol.flex-control-nav.flex-control-paging
+    + ul.flex-direction-nav
+    li.flex-nav-prev
+    a {
+    position: absolute;
+    left: -30px;
+  }
+
+  div.banners-big
+    ol.flex-control-nav.flex-control-paging
+    + ul.flex-direction-nav
+    li.flex-nav-next
+    a {
+    position: absolute;
+    right: 35px;
+  }
+
+  div.banners-big
+    ol.flex-control-nav.flex-control-paging
+    + ul.flex-direction-nav
+    li.flex-nav-prev
+    a.flex-prev
+    svg,
+  div.banners-big
+    ol.flex-control-nav.flex-control-paging
+    + ul.flex-direction-nav
+    li.flex-nav-next
+    a.flex-next
+    svg {
+    height: 50px;
+    width: 50px;
+    opacity: 0.2;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  div.banners-big
+    ol.flex-control-nav.flex-control-paging
+    + ul.flex-direction-nav
+    li.flex-nav-next
+    a {
+    position: absolute;
+    right: -20px;
+  }
+}

@@ -11,23 +11,3 @@
   }
 }
 
-@media not print {
-  @media (max-width: 991px) {
-    .banners-big .flex-direction-nav {
-      display: block;
-    }
-
-    .banners-big .nav-carousel .flex-direction-nav li.flex-nav-prev {
-      left: 0;
-    }
-
-    .banners-big .nav-carousel .flex-direction-nav li {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    .flex-direction-nav a {
-      visibility: visible;
-    }
-  }
-}
