@@ -1,0 +1,5 @@
+@media only screen and (max-width: 530px) {
+    div.item-views.sections .row_block .item .text.childs  {
+        text-align: center;
+    }
+}
