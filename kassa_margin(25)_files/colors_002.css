@@ -1,0 +1,102 @@
+
+.wrap_tizer .wrap_outer,
+.wrap_tizer .wrap_outer .outer_text,
+.wrap_tizer .wrap_outer .inner_text {
+  background: #373d44;
+}
+
+.nav-direction .flex-direction-nav li a {
+  background: black;
+}
+
+.logo.colored img, header .line-row, #mobileheader .logo.colored img {
+	background: none;
+}
+.page-top-wrapper{
+	background: #373d44 !important;
+}
+
+.side-menu > li.active > a {
+	background: #373d44;
+}
+
+/*.btn.btn-default {
+	background-color: #373d44;
+	border-color: #373d44;
+}*/
+
+.svg.colored svg path {
+	fill: #373d44;
+}
+
+.tabs .nav-tabs li.active a {
+	color: #373d44;
+}
+a.scroll-to-top.ROUND_COLOR, a.scroll-to-top.RECT_COLOR {
+	background-color: #373d44;
+}
+
+.item-views.blocks .title_block .right_link_block {
+	color: #373d44;
+}
+
+.menu-row .mega-menu table td.wide_menu > .wrap > .dropdown-menu > li > .dropdown-menu li a {
+	color: #373d44;
+}
+
+.menu-row .mega-menu table td.wide_menu > .wrap > .dropdown-menu > li > .dropdown-menu li a:hover, .menu-row .mega-menu table td.wide_menu > .wrap > .dropdown-menu > li > .dropdown-menu li a:focus, .menu-row .mega-menu table td.wide_menu > .wrap > .dropdown-menu > li > .dropdown-menu li.active > a {
+	color: #d21f1c;
+}
+.filter-action.active, .display-type .view-button:hover, .display-type .view-button.cur {
+	background-color: #373d44;
+}
+
+.introtext {
+	border-bottom-color: #373d44;
+}
+
+.item-views .item .bottom-props .value {
+	background-color: #373d44;
+}
+
+.logo-row .logo {
+	max-width: 250px;
+}
+
+.banners-big .slides > li > .maxwidth-theme > .row > div {
+	vertical-align: baseline !important;
+}
+
+.banners-big .slides .img img {
+	height: auto;
+	width: 100%;
+}
+
+/*.flexslider .slides img {
+	vertical-align: baseline !important;
+}*/
+
+.basket.fly .opener {
+	background: #373d44;
+}
+
+.title-v5 .basket.fly .opener {
+	background-color: #373d44;
+}
+
+.menu-row .mega-menu table td.wide_menu > .wrap > .dropdown-menu > li > .dropdown-menu > li, .menu-row .mega-menu .catalog_icons_N table td.wide_menu > .wrap > .dropdown-menu > li > .dropdown-menu > li.clicked_exp {
+	display: none !important;
+}
+
+.catalog.sections .items.services > div .item .image {
+	border-radius: 0;
+}
+
+@media (min-width: 1200px) {
+	.content-md > .right_block {
+		margin-top: -70px;
+	}
+}
+
+
+
