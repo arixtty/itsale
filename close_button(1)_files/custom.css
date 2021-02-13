@@ -1,0 +1,46 @@
+/* CSS kod pishite v etom faile, chotobi pri ustanovke obnovlenii ne bilo problem  */
+/* --------------------------------------- */
+/* Here you can put custom css rules for your site */
+
+div#mobileheader div.mobileheader-v1 {
+    position: fixed;
+    height: 64px;
+}
+
+.list-type-block.item-views.wide_img .item .image + div.body-info {
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    a.scroll-to-top {
+        display: block !important;
+    }
+}
+
+@media not print {
+  @media (max-width: 530px) {
+    div.ordering-wrap {
+      display: flex;
+    }
+
+    div.select-outer i.fa {
+      margin-right: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 530px) {
+    div.item-views.sections .row_block .item .text.childs  {
+        text-align: center;
+    }
+
+    div.item-views.sections .row_block .item .text.childs ul li:last-child {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    div.item-views.sections .row_block .item .text.childs ul li {
+        margin-right: 0;
+    }
+}

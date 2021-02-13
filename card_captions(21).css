@@ -2,4 +2,14 @@
     div.item-views.sections .row_block .item .text.childs  {
         text-align: center;
     }
+
+    div.item-views.sections .row_block .item .text.childs ul li:last-child {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    div.item-views.sections .row_block .item .text.childs ul li {
+        margin-right: 0;
+    }
 }
