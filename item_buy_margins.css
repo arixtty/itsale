@@ -1,0 +1,13 @@
+@media only screen and (max-width: 810px) {
+    .detail .galery .flexslider.top-bigs {
+        height: 250px;
+    }
+    
+    .catalog.detail .ext_view .head div.row.galery {
+        padding: 0;
+    }
+    
+    .detail .galery .item.flex-active-slide.current img {
+        display: block;
+    }
+}
